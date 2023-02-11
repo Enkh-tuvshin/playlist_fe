@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.header {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    background-image: linear-gradient(gray, black);
+}

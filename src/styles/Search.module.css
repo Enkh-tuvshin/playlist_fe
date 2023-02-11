@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 36px;
+    z-index: 1;
+}
+
+.section {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.section div {
+    width: 175px;
+    height: 175px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+div h4 {
+    color: #fff;
+}

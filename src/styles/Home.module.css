@@ -1,0 +1,57 @@
+@media only screen and (min-width: 1500px) {
+    .header {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .header {
+        overflow: hidden;
+    }
+}
+
+.header {
+    height: 100%;
+    margin: 20px;
+}
+
+.header h3 {
+    height: 50px;
+    display: grid;
+    gap: 16px;
+}
+
+.innerContainer {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.section div {
+    width: 195px;
+    height: 285px;
+    border-radius: 5px;
+    background-color: rgb(21, 21, 21);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.section div:hover {
+    background-color: rgb(47, 47, 47);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}

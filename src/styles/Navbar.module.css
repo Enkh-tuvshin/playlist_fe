@@ -1,0 +1,31 @@
+.innerContainer {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.arrowButton {
+    width: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+.arrowButton svg {
+    width: 40px;
+    height: 30px;
+}
+
+.createButton {
+    display: flex;
+    gap: 5px;
+}
+
+.createButton button {
+    background-color: gray;
+    border: none;
+    text-decoration: underline;
+    color: blue;
+}

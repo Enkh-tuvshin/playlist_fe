@@ -1,0 +1,27 @@
+.cost {
+    width: max-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #000;
+    padding: 35px;     
+}
+
+.cost h4 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+    padding: 0px 32px;
+    color: #fff;
+}
+
+.cost a {
+    text-decoration: none;
+}       
+.logOut {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
